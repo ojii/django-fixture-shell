@@ -1,0 +1,18 @@
+django-fixture-shell
+====================
+
+An app allowing you to easily create fixtures from the command line using a
+django shell.
+
+
+
+Usage
+-----
+
+``fixture_shell outfile [app1 [, app2]``
+
+The `outfile` is where the fixture should be written to, due to the interactive
+nature of this command, the fixture is written to a file rather than to stdout.
+
+You may provide an optional list of apps to create fixtures of (same as for
+dumpdata).
